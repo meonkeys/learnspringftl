@@ -1,21 +1,8 @@
-TODO
+[_] add a small example of Spring Webflow
 [_] serve "GET /hello" instead of "GET /hello.ftl"
-
-DONE
-[X] basic Maven build
-[X] set up Jetty
-[X] serve a static page
-[X] Spring
-[X] Freemarker
-[X] pass data to .ftl page
-[X] submit form in .ftl page, accept data
-[X] remove Mifos-specific code
-	instead, just add bits and pieces as necessary
-	ie: to test Spring Security, implement that anew
-[X] fix "mvn jetty:run" so hello.ftl is shown by default
-	instead, made an index.html file
-	doesn't expose underlying implementation (Freemarker)
-	cleaner URLs
+[_] add Hibernate
+	make it create & drop db on the fly
+	or have another app/script to create/drop db
 
 -----------------------------------------------------------------------
 vim: ft=vo_base
