@@ -81,4 +81,11 @@ public class HelloController {
 	    mav.addObject("message_for_en_US", usMessage);
 	    return mav;
 	}
+
+    @RequestMapping("/macros")
+    public ModelAndView demoFtlMacros(HttpServletRequest request, HttpServletResponse response)
+        throws ServletException, IOException {
+        ModelAndView mav = new ModelAndView("macros");
+        return mav;
+    }
 }
