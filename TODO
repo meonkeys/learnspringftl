@@ -1,4 +1,6 @@
 [_] add a small example of Spring Webflow
+	http://www.ervacon.com/products/swf/intro/
+	http://static.springsource.org/spring-webflow/docs/2.2.1.RELEASE/spring-webflow-reference/html/
 [_] serve "GET /hello" instead of "GET /hello.ftl"
 [_] add Hibernate
 	make it create & drop db on the fly
